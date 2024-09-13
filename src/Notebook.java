@@ -53,5 +53,7 @@ public class Notebook
         notebook.listNotes();
         notebook.showNote(1);
         notebook.showNote(2);
+        notebook.storeNote("This is the 3rd and final note");
+        notebook.showNote(3);
     }
 }
